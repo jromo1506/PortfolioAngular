@@ -29,7 +29,7 @@ export class InfoCarouselComponent implements AfterViewInit{
       margin: 10,
       items: 1,
       autoplay: true, // Deslizar automáticamente
-      autoplayTimeout: 2000, // Tiempo de espera entre cada slide (en milisegundos)
+      autoplayTimeout: 8000, // Tiempo de espera entre cada slide (en milisegundos)
       autoplayHoverPause: true, // Pausa al pasar el mouse sobre el carrusel
       nav: true, // Desactiva las flechas
       dots: true, // Habilita los puntos de navegación
