@@ -1,0 +1,23 @@
+.owl-carousel {
+    margin: 0 auto; /* Centrado horizontal */
+  }
+  
+  .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Si también quieres centrar verticalmente el carrusel en la pantalla */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+  }
+  

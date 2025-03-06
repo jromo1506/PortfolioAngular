@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+p, h1,h2,h3,h4,h5,h6,title,a{
+    font-family:  "Montserrat", sans-serif !important;
+}
+
+.hover{
+    transition: all ease 0.1s;
+}
+
+.hover:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.hover-text{
+    transition: all ease 0.3s;
+}
+
+.hover-text:hover{
+
+ color: rgb(255, 209, 45);
+ cursor: pointer;
+}
